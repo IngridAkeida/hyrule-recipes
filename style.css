@@ -42,7 +42,6 @@ header {
   gap: var(--spacing-md);
   align-items: center;
   border-bottom: 5px solid var(--color-triforce-gold);
-  margin: -1.5rem;
 }
 
 header h1 {
@@ -118,7 +117,6 @@ section {
 .recipe-card {
     display: flex; 
     flex-direction: column; 
-    
     background-color: #3d5a6d; 
     border: 2px solid var(--color-triforce-gold);
     border-radius: 8px;
@@ -154,7 +152,7 @@ section {
     color: var(--color-triforce-gold);
     font-size: 1.5em;
     margin-bottom: var(--spacing-sm);
-    border-bottom: 1px solid rgba(255, 215, 0, 0.3); /* Linha fina de ouro */
+    border-bottom: 1px solid rgba(255, 215, 0, 0.3);
     padding-bottom: var(--spacing-sm);
 }
 
@@ -200,7 +198,6 @@ section {
     min-width: 30px; 
 }
 
-
 footer {
   background-color: var(--color-triforce-gold);
   padding: var(--spacing-md) var(--spacing-lg);
@@ -228,83 +225,29 @@ footer a:hover {
 }
 
 @media (min-width: 600px) {
-  header {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  header h1 {
-    margin-bottom: 0;
-  }
-
-  header > div {
-    width: auto;
-    max-width: none;
-  }
-
-  main {
-    padding: var(--spacing-xl) 10%;
-  }
-}
-
-@media (max-width: 768px) {
     header {
-        flex-direction: column; 
-        padding: 1rem; 
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
     }
 
-    header h1 { 
-        text-align: center;
-        margin-bottom: 1rem;
-    }
-
-    div input { 
-        width: 90vw;
-        font-size: 1.2rem; 
-    }
-
-    main { 
-        padding: 0 1rem; 
-    }
-
-    article:hover {
-        transform: none; 
-    }
-}
-
-@media (min-width: 480px) {
     header h1 {
-        font-size: 1rem; 
-        max-width: 70%; 
-        word-wrap: break-word; 
+        margin-bottom: 0;
     }
 
-    div input, 
-    div input::placeholder {
-        font-size: 1rem; 
+    header > div {
+        width: auto;
+        max-width: none;
     }
 
-    div { 
-        display: flex; 
-        align-items: center; 
-        justify-content: center; 
-        flex-direction: column; 
-        gap: 0.5rem; 
-    }
-
-    .footer { 
-        display: none; 
-    }
-
-    button { 
-        margin-top: 1rem; 
+    main {
+        padding: var(--spacing-xl) 10%; 
     }
 }
 
 @media (min-width: 768px) {
     .recipe-card {
-        flex-direction: row; 
+        flex-direction: row;
     }
 
     .recipe-image-container {

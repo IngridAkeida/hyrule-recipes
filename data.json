@@ -1,5 +1,4 @@
-{
-  "recipes": [
+[
     {
       "name": "Meat Skewer",
       "type": "Skewer",
@@ -31,6 +30,942 @@
         "duration": "2:30"
       },
       "uses": "Heat-sensitive exploration"
+    },
+    {
+      "name": "Mushroom Skewer",
+      "type": "Skewer",
+      "description": "A simple skewer of grilled mushrooms.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/c/c3/Mushroom_Skewer.png",
+      "ingredients": [
+        { "item": "Any Mushroom", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": 1,
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Fried Wild Greens",
+      "type": "Vegetarian",
+      "description": "A healthy dish made by cooking various vegetables and herbs.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/7/74/Fried_Wild_Greens.png",
+      "ingredients": [
+        { "item": "Any Vegetable or Herb", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": 2,
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Steamed Fish",
+      "type": "Seafood",
+      "description": "A light and healthy dish of steamed fish and vegetables.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/9/9d/Steamed_Fish.png",
+      "ingredients": [
+        { "item": "Any Fish", "quantity": 1 },
+        { "item": "Any Vegetable or Herb", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": 3,
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Hearty Steamed Mushrooms",
+      "type": "Vegetarian",
+      "description": "Steamed mushrooms that fully restore your health and grant temporary extra hearts.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/c/c3/Mushroom_Skewer.png",
+      "ingredients": [
+        { "item": "Hearty Truffle", "quantity": 1 },
+        { "item": "Any Vegetable or Herb", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": "Full recovery +1",
+        "buffs": "Temporary Hearts",
+        "duration": null
+      },
+      "uses": "Full health recovery and bonus hearts"
+    },
+    {
+      "name": "Energizing Honeyed Apple",
+      "type": "Dessert",
+      "description": "A sweet and energizing snack made with apples and honey.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/e/e3/Honeyed_Apple.png",
+      "ingredients": [
+        { "item": "Apple", "quantity": 1 },
+        { "item": "Courser Bee Honey", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": 5,
+        "buffs": "Stamina Recovery",
+        "duration": null
+      },
+      "uses": "Restore stamina"
+    },
+    {
+      "name": "Hasty Elixir",
+      "type": "Elixir",
+      "description": "An elixir that temporarily increases your movement speed.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/e/e3/Hasty_Elixir.png",
+      "ingredients": [
+        { "item": "Hightail Lizard", "quantity": 1 },
+        { "item": "Any Monster Part", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": 0,
+        "buffs": "Haste",
+        "duration": "Varies"
+      },
+      "uses": "Faster movement"
+    }
+    ,
+    {
+      "name": "Fish and Mushroom Skewer",
+      "type": "Seafood",
+      "description": "A simple dish made by cooking skewered fresh fish alongside fragrant mushrooms.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/7/7f/Fish_and_Mushroom_Skewer.png",
+      "ingredients": [
+        { "item": "Any Fish", "quantity": 1 },
+        { "item": "Any Mushroom", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": "Varies",
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Meat and Mushroom Skewer",
+      "type": "Skewer",
+      "description": "A filling dish made by grilling various mountain ingredients with meat.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/9/95/Meat_and_Mushroom_Skewer.png",
+      "ingredients": [
+        { "item": "Any Meat", "quantity": 1 },
+        { "item": "Any Mushroom", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": "Varies",
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Fish Skewer",
+      "type": "Seafood",
+      "description": "A fresh fish grilled on a skewer.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/e/e3/Fish_Skewer.png",
+      "ingredients": [
+        { "item": "Any Fish", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": "Varies",
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Seafood Skewer",
+      "type": "Seafood",
+      "description": "Any of a variety of seafood grilled on a skewer.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/3/38/Seafood_Skewer.png",
+      "ingredients": [
+        { "item": "Any Crab or Snail", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": "Varies",
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Copious Fish Skewers",
+      "type": "Seafood",
+      "description": "A heaping helping of fresh fish grilled on a skewer.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/a/a2/Copious_Fish_Skewers.png",
+      "ingredients": [
+        { "item": "Any Fish", "quantity": 4 }
+      ],
+      "effects": {
+        "hearts": "Varies",
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Copious Meat Skewers",
+      "type": "Skewer",
+      "description": "A key feature of this dish is the sheer volume of meat used.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/d/d3/Copious_Meat_Skewers.png",
+      "ingredients": [
+        { "item": "Any Meat", "quantity": 4 }
+      ],
+      "effects": {
+        "hearts": "Varies",
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Copious Mushroom Skewers",
+      "type": "Vegetarian",
+      "description": "A whole skewer of grilled mushrooms. You'll be mushroomed out!",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/2/23/Copious_Mushroom_Skewers.png",
+      "ingredients": [
+        { "item": "Any Mushroom", "quantity": 4 }
+      ],
+      "effects": {
+        "hearts": "Varies",
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Steamed Fruit",
+      "type": "Vegetarian",
+      "description": "A healthy dish made by steaming fruit in the leaves of plants.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/c/c3/Steamed_Fruit.png",
+      "ingredients": [
+        { "item": "Any Fruit", "quantity": 1 },
+        { "item": "Any Vegetable or Herb", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": "Varies",
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Steamed Meat",
+      "type": "Skewer",
+      "description": "A healthy dish made by steaming meat in the leaves of plants.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/b/b3/Steamed_Meat.png",
+      "ingredients": [
+        { "item": "Any Meat", "quantity": 1 },
+        { "item": "Any Vegetable or Herb", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": "Varies",
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Steamed Mushrooms",
+      "type": "Vegetarian",
+      "description": "A healthy dish made by steaming mushrooms in the leaves of plants.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/d/d6/Steamed_Mushrooms.png",
+      "ingredients": [
+        { "item": "Any Mushroom", "quantity": 1 },
+        { "item": "Any Vegetable or Herb", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": "Varies",
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Meat and Seafood Fry",
+      "type": "Surf and Turf",
+      "description": "A pleasant harmony created by cooking seafood and meat together.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/3/38/Meat_and_Seafood_Fry.png",
+      "ingredients": [
+        { "item": "Any Meat", "quantity": 1 },
+        { "item": "Any Seafood", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": "Varies",
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Prime Meat and Seafood Fry",
+      "type": "Surf and Turf",
+      "description": "A marriage of the choicest cuts of meat and seafood.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/d/d7/Prime_Meat_and_Seafood_Fry.png",
+      "ingredients": [
+        { "item": "Raw Prime Meat", "quantity": 1 },
+        { "item": "Any Seafood", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": "Varies",
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Gourmet Meat and Seafood Fry",
+      "type": "Surf and Turf",
+      "description": "The finest cuts of meat and seafood fried together.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/a/a3/Gourmet_Meat_and_Seafood_Fry.png",
+      "ingredients": [
+        { "item": "Raw Gourmet Meat", "quantity": 1 },
+        { "item": "Any Seafood", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": "Varies",
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Crab Stir-Fry",
+      "type": "Seafood",
+      "description": "The Goron spice used in this stir-fry pairs well with the crab's flavor.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/d/d5/Crab_Stir-Fry.png",
+      "ingredients": [
+        { "item": "Any Crab", "quantity": 1 },
+        { "item": "Goron Spice", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": "Varies",
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Salt-Grilled Meat",
+      "type": "Skewer",
+      "description": "This simple dish is made by slow-cooking meat with rock salt.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/5/57/Salt-Grilled_Meat.png",
+      "ingredients": [
+        { "item": "Any Meat", "quantity": 1 },
+        { "item": "Rock Salt", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": "Varies",
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Salt-Grilled Prime Meat",
+      "type": "Skewer",
+      "description": "Choice meat slow-cooked with rock salt. A favorite among hunters.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/c/ca/Salt-Grilled_Prime_Meat.png",
+      "ingredients": [
+        { "item": "Raw Prime Meat", "quantity": 1 },
+        { "item": "Rock Salt", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": "Varies",
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Salt-Grilled Gourmet Meat",
+      "type": "Skewer",
+      "description": "The highest-quality meat, slow-cooked with rock salt.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/1/18/Salt-Grilled_Gourmet_Meat.png",
+      "ingredients": [
+        { "item": "Raw Gourmet Meat", "quantity": 1 },
+        { "item": "Rock Salt", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": "Varies",
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Salt-Grilled Fish",
+      "type": "Seafood",
+      "description": "A simple dish of salted, grilled fish.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/0/04/Salt-Grilled_Fish.png",
+      "ingredients": [
+        { "item": "Any Fish", "quantity": 1 },
+        { "item": "Rock Salt", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": "Varies",
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Salt-Grilled Crab",
+      "type": "Seafood",
+      "description": "A simple dish of salted, grilled crab.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/c/c4/Salt-Grilled_Crab.png",
+      "ingredients": [
+        { "item": "Any Crab", "quantity": 1 },
+        { "item": "Rock Salt", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": "Varies",
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Glazed Meat",
+      "type": "Skewer",
+      "description": "The sweetness of the honey permeates the meat, giving it a complex taste.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/0/0b/Glazed_Meat.png",
+      "ingredients": [
+        { "item": "Any Meat", "quantity": 1 },
+        { "item": "Courser Bee Honey", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": "Varies",
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Glazed Mushrooms",
+      "type": "Vegetarian",
+      "description": "The honey's sweetness coupled with the mushrooms' texture is fantastic.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/c/c2/Glazed_Mushrooms.png",
+      "ingredients": [
+        { "item": "Any Mushroom", "quantity": 1 },
+        { "item": "Courser Bee Honey", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": "Varies",
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Glazed Veggies",
+      "type": "Vegetarian",
+      "description": "The honey's sweetness is a good match for the vegetables' flavor.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/6/62/Glazed_Veggies.png",
+      "ingredients": [
+        { "item": "Any Vegetable", "quantity": 1 },
+        { "item": "Courser Bee Honey", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": "Varies",
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Glazed Seafood",
+      "type": "Seafood",
+      "description": "The honey's sweetness is a good match for the seafood's flavor.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/e/e3/Glazed_Seafood.png",
+      "ingredients": [
+        { "item": "Any Seafood", "quantity": 1 },
+        { "item": "Courser Bee Honey", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": "Varies",
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Curry Rice",
+      "type": "Vegetarian",
+      "description": "A flavorful spice coats every grain of rice.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/a/a8/Curry_Rice.png",
+      "ingredients": [
+        { "item": "Hylian Rice", "quantity": 1 },
+        { "item": "Goron Spice", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": 2,
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Mushroom Risotto",
+      "type": "Vegetarian",
+      "description": "The savory flavor of cheese and mushrooms makes this a very special dish.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/2/2d/Mushroom_Risotto.png",
+      "ingredients": [
+        { "item": "Any Mushroom", "quantity": 1 },
+        { "item": "Hylian Rice", "quantity": 1 },
+        { "item": "Goat Butter", "quantity": 1 },
+        { "item": "Rock Salt", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": "Varies",
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Vegetable Risotto",
+      "type": "Vegetarian",
+      "description": "The sweetness of the vegetables and the savoriness of the cheese are a match made in heaven.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/c/c8/Vegetable_Risotto.png",
+      "ingredients": [
+        { "item": "Any Vegetable", "quantity": 1 },
+        { "item": "Hylian Rice", "quantity": 1 },
+        { "item": "Goat Butter", "quantity": 1 },
+        { "item": "Rock Salt", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": "Varies",
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Salmon Risotto",
+      "type": "Seafood",
+      "description": "The salmon's fatty meat and the rich cheese are a splendid combination.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/d/d7/Salmon_Risotto.png",
+      "ingredients": [
+        { "item": "Hearty Salmon", "quantity": 1 },
+        { "item": "Hylian Rice", "quantity": 1 },
+        { "item": "Goat Butter", "quantity": 1 },
+        { "item": "Rock Salt", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": "Full recovery +4",
+        "buffs": "Temporary Hearts",
+        "duration": null
+      },
+      "uses": "Full health recovery and bonus hearts"
+    },
+    {
+      "name": "Crab Risotto",
+      "type": "Seafood",
+      "description": "The crab's flavor, the savory cheese, and the rice are a wonderful combination.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/f/f7/Crab_Risotto.png",
+      "ingredients": [
+        { "item": "Any Crab", "quantity": 1 },
+        { "item": "Hylian Rice", "quantity": 1 },
+        { "item": "Goat Butter", "quantity": 1 },
+        { "item": "Rock Salt", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": "Varies",
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Poultry Pilaf",
+      "type": "Skewer",
+      "description": "The rice and poultry are a perfect match in this dish.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/1/13/Poultry_Pilaf.png",
+      "ingredients": [
+        { "item": "Raw Bird Drumstick", "quantity": 1 },
+        { "item": "Hylian Rice", "quantity": 1 },
+        { "item": "Bird Egg", "quantity": 1 },
+        { "item": "Goat Butter", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": 6,
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Prime Poultry Pilaf",
+      "type": "Skewer",
+      "description": "The rice and prime poultry are a perfect match in this dish.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/c/c5/Prime_Poultry_Pilaf.png",
+      "ingredients": [
+        { "item": "Raw Bird Thigh", "quantity": 1 },
+        { "item": "Hylian Rice", "quantity": 1 },
+        { "item": "Bird Egg", "quantity": 1 },
+        { "item": "Goat Butter", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": "Varies",
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Gourmet Poultry Pilaf",
+      "type": "Skewer",
+      "description": "The rice and gourmet poultry are a perfect match in this dish.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/9/9c/Gourmet_Poultry_Pilaf.png",
+      "ingredients": [
+        { "item": "Raw Whole Bird", "quantity": 1 },
+        { "item": "Hylian Rice", "quantity": 1 },
+        { "item": "Bird Egg", "quantity": 1 },
+        { "item": "Goat Butter", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": "Varies",
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Seafood Fried Rice",
+      "type": "Seafood",
+      "description": "The flavor of the seafood takes center stage in this dish.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/9/91/Seafood_Fried_Rice.png",
+      "ingredients": [
+        { "item": "Any Snail or Crab", "quantity": 1 },
+        { "item": "Hylian Rice", "quantity": 1 },
+        { "item": "Rock Salt", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": "Varies",
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Crab Omelet with Rice",
+      "type": "Seafood",
+      "description": "The fluffy eggs and fragrant crab are a match made in heaven.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/d/d2/Crab_Omelet_with_Rice.png",
+      "ingredients": [
+        { "item": "Any Crab", "quantity": 1 },
+        { "item": "Hylian Rice", "quantity": 1 },
+        { "item": "Bird Egg", "quantity": 1 },
+        { "item": "Rock Salt", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": "Varies",
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Meat Fried Rice",
+      "type": "Skewer",
+      "description": "The meat has been chopped up and mixed with rice.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/8/82/Meat_Fried_Rice.png",
+      "ingredients": [
+        { "item": "Any Meat", "quantity": 1 },
+        { "item": "Hylian Rice", "quantity": 1 },
+        { "item": "Rock Salt", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": "Varies",
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Prime Meat Fried Rice",
+      "type": "Skewer",
+      "description": "The prime meat has been chopped up and mixed with rice.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/9/9a/Prime_Meat_Fried_Rice.png",
+      "ingredients": [
+        { "item": "Raw Prime Meat", "quantity": 1 },
+        { "item": "Hylian Rice", "quantity": 1 },
+        { "item": "Rock Salt", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": "Varies",
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Gourmet Meat Fried Rice",
+      "type": "Skewer",
+      "description": "The gourmet meat has been chopped up and mixed with rice.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/f/f9/Gourmet_Meat_Fried_Rice.png",
+      "ingredients": [
+        { "item": "Raw Gourmet Meat", "quantity": 1 },
+        { "item": "Hylian Rice", "quantity": 1 },
+        { "item": "Rock Salt", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": "Varies",
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Mushroom Omelet",
+      "type": "Vegetarian",
+      "description": "The fluffy texture of this omelet is one of the great joys of this dish, as well as life.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/2/27/Mushroom_Omelet.png",
+      "ingredients": [
+        { "item": "Any Mushroom", "quantity": 1 },
+        { "item": "Bird Egg", "quantity": 1 },
+        { "item": "Goat Butter", "quantity": 1 },
+        { "item": "Rock Salt", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": "Varies",
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Vegetable Omelet",
+      "type": "Vegetarian",
+      "description": "This home-style dish mixes fluffy eggs with chopped vegetables for nutritional balance.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/1/15/Vegetable_Omelet.png",
+      "ingredients": [
+        { "item": "Any Vegetable", "quantity": 1 },
+        { "item": "Bird Egg", "quantity": 1 },
+        { "item": "Goat Butter", "quantity": 1 },
+        { "item": "Rock Salt", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": "Varies",
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Seafood Paella",
+      "type": "Seafood",
+      "description": "A marriage of Hylian rice and seafood, this dish is a must-have for seafood lovers.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/8/84/Seafood_Paella.png",
+      "ingredients": [
+        { "item": "Any Porgy", "quantity": 1 },
+        { "item": "Any Snail or Crab", "quantity": 1 },
+        { "item": "Hylian Rice", "quantity": 1 },
+        { "item": "Goat Butter", "quantity": 1 },
+        { "item": "Rock Salt", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": "Varies",
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Fruit and Mushroom Mix",
+      "type": "Vegetarian",
+      "description": "The flavors of the fruit and mushrooms mix well, creating a delightful dish.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/9/98/Fruit_and_Mushroom_Mix.png",
+      "ingredients": [
+        { "item": "Any Fruit", "quantity": 1 },
+        { "item": "Any Mushroom", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": "Varies",
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Simmered Fruit",
+      "type": "Vegetarian",
+      "description": "This dish is made by simmering fresh fruit in a pot.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/5/52/Simmered_Fruit.png",
+      "ingredients": [
+        { "item": "Any Fruit", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": "Varies",
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Copious Simmered Fruit",
+      "type": "Vegetarian",
+      "description": "A dish made by simmering a large amount of fruit.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/d/d9/Copious_Simmered_Fruit.png",
+      "ingredients": [
+        { "item": "Any Fruit", "quantity": 4 }
+      ],
+      "effects": {
+        "hearts": "Varies",
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Sautéed Peppers",
+      "type": "Vegetarian",
+      "description": "The spiciness of the peppers has been brought out in this simple dish.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/e/e3/Saut%C3%A9ed_Peppers.png",
+      "ingredients": [
+        { "item": "Spicy Pepper", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": 1,
+        "buffs": "Cold Resistance",
+        "duration": "2:30"
+      },
+      "uses": "Heat-sensitive exploration"
+    },
+    {
+      "name": "Sautéed Nuts",
+      "type": "Vegetarian",
+      "description": "These sautéed nuts have a fragrant aroma.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/c/c0/Saut%C3%A9ed_Nuts.png",
+      "ingredients": [
+        { "item": "Acorn or Voltfruit", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": "Varies",
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Fried Egg and Rice",
+      "type": "Vegetarian",
+      "description": "A simple dish of a fried egg over rice.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/1/1a/Fried_Egg_and_Rice.png",
+      "ingredients": [
+        { "item": "Hylian Rice", "quantity": 1 },
+        { "item": "Bird Egg", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": 4,
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Honeyed Apple",
+      "type": "Dessert",
+      "description": "A simple dish of apples cooked in honey.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/e/e3/Honeyed_Apple.png",
+      "ingredients": [
+        { "item": "Apple", "quantity": 1 },
+        { "item": "Courser Bee Honey", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": "Varies",
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Honeyed Fruits",
+      "type": "Dessert",
+      "description": "A dish of fruit cooked in honey.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/1/1c/Honeyed_Fruits.png",
+      "ingredients": [
+        { "item": "Any Fruit", "quantity": 1 },
+        { "item": "Courser Bee Honey", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": "Varies",
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Apple Pie",
+      "type": "Dessert",
+      "description": "The crispy crust and sweet apples are a perfect match.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/d/d6/Apple_Pie.png",
+      "ingredients": [
+        { "item": "Apple", "quantity": 1 },
+        { "item": "Tabantha Wheat", "quantity": 1 },
+        { "item": "Goat Butter", "quantity": 1 },
+        { "item": "Cane Sugar", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": 3,
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Fruit Pie",
+      "type": "Dessert",
+      "description": "A sweet pie made with fragrant fruit.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/9/95/Fruit_Pie.png",
+      "ingredients": [
+        { "item": "Any Fruit", "quantity": 1 },
+        { "item": "Tabantha Wheat", "quantity": 1 },
+        { "item": "Goat Butter", "quantity": 1 },
+        { "item": "Cane Sugar", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": "Varies",
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Meat Pie",
+      "type": "Skewer",
+      "description": "A savory pie made with meat and vegetables.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/9/9a/Meat_Pie.png",
+      "ingredients": [
+        { "item": "Any Meat", "quantity": 1 },
+        { "item": "Tabantha Wheat", "quantity": 1 },
+        { "item": "Goat Butter", "quantity": 1 },
+        { "item": "Rock Salt", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": "Varies",
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Fish Pie",
+      "type": "Seafood",
+      "description": "A savory pie made with fish and vegetables.",
+      "image": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/e/e4/Fish_Pie.png",
+      "ingredients": [
+        { "item": "Any Fish", "quantity": 1 },
+        { "item": "Tabantha Wheat", "quantity": 1 },
+        { "item": "Goat Butter", "quantity": 1 },
+        { "item": "Rock Salt", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": "Varies",
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
     }
   ]
-}
