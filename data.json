@@ -1,0 +1,36 @@
+{
+  "recipes": [
+    {
+      "name": "Meat Skewer",
+      "type": "Skewer",
+      "description": "An easy blend of meat and mushrooms grilled to restore health.",
+      "image": "https://static.wikia.nocookie.net/zelda/images/f/f9/Meat_skewer.png/revision/latest?cb=20170318222441",
+      "ingredients": [
+        { "item": "Raw Meat", "quantity": 1 },
+        { "item": "Any Mushroom", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": 3,
+        "buffs": null,
+        "duration": null
+      },
+      "uses": "Restore health"
+    },
+    {
+      "name": "Spicy Meat Skewer",
+      "type": "Skewer",
+      "description": "Meat grilled with spicy peppers to grant cold resistance.",
+      "image": "https://static.wikia.nocookie.net/zelda/images/f/f9/Meat_skewer.png/revision/latest?cb=20170318222441",
+      "ingredients": [
+        { "item": "Raw Meat", "quantity": 1 },
+        { "item": "Spicy Pepper", "quantity": 1 }
+      ],
+      "effects": {
+        "hearts": 2,
+        "buffs": "Cold Resistance",
+        "duration": "2:30"
+      },
+      "uses": "Heat-sensitive exploration"
+    }
+  ]
+}
