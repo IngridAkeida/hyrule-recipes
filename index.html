@@ -7,26 +7,30 @@
   <title>Hyrule Recipes 🍲</title>
 </head>
 <body>
-  <header role="banner">
-    <h1>Hyrule Recipes 🍲</h1>
-    <div role="search">
-      <label for="recipe-search" class="visually-hidden">Search for recipes</label>
-      <input type="text" id="recipe-search" placeholder="Type here your favorite recipe">
-      <button onclick="startSearch()" aria-label="Start Recipe Search">Search</button>
-    </div>
-  </header>
-  <main role="main">
-    <section aria-labelledby="recipe-results-heading" class="card-container">
+  <header role="banner">
+  <div class="header-container">
+    <h1>Hyrule Recipes 🍲</h1>
+    <div role="search">
+      <label for="recipe-search" class="visually-hidden">Search for recipes</label>
+      <div class="input-search">
+        <input type="text" id="recipe-search" placeholder="Type here your favorite recipe">
+        <button onclick="startSearch()" aria-label="Start Recipe Search">Search</button>
+      </div>
+    </div>
+  </div>
+  </header>
+  <main role="main">
+  <section aria-labelledby="recipe-results-heading" class="card-container">
         <h2 id="recipe-results-heading" class="visually-hidden">Recipe Results Area</h2>
         <p>Your journey for the perfect meal begins! Search for ingredients or dishes.</p>
     </section>
-  </main>
-  <footer role="contentinfo">
-    <ul>
-      <li><a href="" target="_blank" rel="noopener noreferrer">My Github</a></li>
-      <li><a href="" target="_blank" rel="noopener noreferrer">My Linkedin</a></li>
-    </ul>
-  </footer>
+  </main>
+  <footer role="contentinfo">
+    <ul>
+      <li><a href="" target="_blank" rel="noopener noreferrer">My Github</a></li>
+      <li><a href="" target="_blank" rel="noopener noreferrer">My Linkedin</a></li>
+    </ul>
+  </footer>
 <script src="script.js"></script>
 </body>
 </html>
