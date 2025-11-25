@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Hyrule Recipes 🍲</title>
+</head>
+<body>
+  <header role="banner">
+    <h1>Hyrule Recipes 🍲</h1>
+    <div role="search">
+      <label for="recipe-search" class="visually-hidden">Search for recipes</label>
+      <input type="text" id="recipe-search" placeholder="Type here your favorite recipe">
+      <button onclick="startSearch()" aria-label="Start Recipe Search">Search</button>
+    </div>
+  </header>
+  <main role="main">
+    <section aria-labelledby="recipe-results-heading">
+        <h2 id="recipe-results-heading" class="visually-hidden">Recipe Results Area</h2>
+        <article class="recipe-card">
+            <div class="recipe-image-container">
+                <img src="https://cdn.europosters.eu/image/750/34557.jpg" alt="A imagem de um espeto de carne grelhado, pronto para consumo." class="recipe-image">
+            </div>
+
+            <div class="recipe-info">
+                <h3 class="recipe-name">Meat Skewer</h3>
+                <p class="recipe-type">Type: Skewer</p>
+                <p class="recipe-description">An easy blend of meat and mushrooms grilled to restore health.</p>
+
+                <div class="recipe-details">
+                    <p class="recipe-effects">
+                        **Effects:** <span class="effect-hearts">3 Hearts</span>
+                    </p>
+                    
+                    <div class="recipe-ingredients">
+                        <h4>Ingredients:</h4>
+                        <ul role="list">
+                            <li class="ingredient-item">
+                                <span class="item-quantity">1x</span> Raw Meat
+                            </li>
+                            <li class="ingredient-item">
+                                <span class="item-quantity">1x</span> Any Mushroom
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <p>Your journey for the perfect meal begins! Search for ingredients or dishes.</p>
+    </section>
+  </main>
+  <footer role="contentinfo">
+    <ul>
+      <li><a href="" target="_blank" rel="noopener noreferrer">My Github</a></li>
+      <li><a href="" target="_blank" rel="noopener noreferrer">My Linkedin</a></li>
+    </ul>
+  </footer>
+</body>
+</html>
