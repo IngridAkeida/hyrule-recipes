@@ -32,7 +32,7 @@ function renderCards(datas){
   for (let data of datas) {
     let article = document.createElement("article");
     article.classList.add("recipe-card");
-    
+
     let ingredientsList = data.ingredients
     .map(ing => `
       <li class="ingredient-item">

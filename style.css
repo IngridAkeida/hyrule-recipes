@@ -47,16 +47,15 @@ header {
   display: flex;
   margin: auto;
   flex-direction: column;
-  /* gap: var(--spacing-md); */
   align-items: center;
-
 }
 
-.header-container h1 {
+header h1 {
   font-family: var(--font-family-serif);
   color: var(--color-triforce-gold);
   margin-bottom: var(--spacing-sm);
   font-size: 2em;
+  margin-top: auto;
 }
 
 div > .input-search {
@@ -124,6 +123,10 @@ section {
   text-align: center;
   color: var(--color-master-sword-steel);
   font-style: italic;
+}
+
+#message{
+
 }
 
 .recipe-card {
@@ -241,10 +244,17 @@ footer a:hover {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        padding: var(--spacing-md);
+        height: 10rem;
     }
 
-    .header-container h1 {
+    header h1 {
         margin-bottom: 0;
+        margin-top: 1rem;
+    }
+
+    .header-container{
+      gap: var(--spacing-md);
     }
 
     .header-container > div {
